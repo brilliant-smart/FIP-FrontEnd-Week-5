@@ -5,10 +5,10 @@ function State() {
 
   return (
     <div>
-      <h2 className="text-center">Counter: {count}</h2>
+      <p className="text-center">Counter: {count}</p>
       <button
         onClick={() => setCount(count + 1)}
-        className="btn btn-primary w-100"
+        className="btn btn-success w-100"
       >
         Click to Count
       </button>

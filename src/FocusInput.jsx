@@ -9,7 +9,7 @@ function FocusInput() {
 
   return (
     <div>
-      <h2>Auto-focus Input</h2>
+      <p>Auto-focus Input</p>
       <input
         ref={inputRef}
         placeholder="Type here..."

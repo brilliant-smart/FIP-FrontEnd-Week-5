@@ -6,8 +6,20 @@
   box-sizing: border-box;
 }
 
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
 body {
   font-family: 'Merriweather', serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -17,13 +29,13 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 button,
 input {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -32,12 +44,22 @@ input {
 
 button:hover,
 input:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+  border-color: #28a745;
+  box-shadow: 0 0 10px rgba(40, 167, 69, 0.25);
+  outline: none;
+}
+
+input:focus {
+  background-color: #eafaf1;
 }
 
 .card {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px 0;
+}
+
+.container {
+  margin-left: 50%;
+  margin-right: 50%;
 }

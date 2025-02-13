@@ -11,7 +11,7 @@ function FetchPosts() {
 
   return (
     <div>
-      <h2 className="mb-3">Posts</h2>
+      <p className="mb-3">Posts</p>
       <ul className="list-group">
         {posts.map((post) => (
           <li className="list-group-item" key={post.id}>

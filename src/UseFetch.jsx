@@ -17,7 +17,7 @@ function UseFetch({ url }) {
 
   return (
     <div>
-      <h2 className="mb-3">Fetched Data</h2>
+      <p className="mb-3">Fetched Data</p>
       <ul className="list-group">
         {data.map((item) => (
           <li className="list-group-item" key={item.id}>
